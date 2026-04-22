@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Tree" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #d95027;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 20.47px;
+      }
+
+      .cls-3 {
+        fill: #db7427;
+      }
+
+      .cls-2 {
+        stroke: #db7427;
+      }
+
+      .cls-4 {
+        fill: #492a1a;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-2" d="M10.68,130V37.81c0-15.19,12.4-27.5,27.69-27.5h123.7c15.29,0,27.69,12.31,27.69,27.5v92.19"/>
+    <path class="cls-1" d="M10.68,70.15v92.19c0,15.19,12.4,27.5,27.69,27.5h123.7c15.29,0,27.69-12.31,27.69-27.5v-92.19"/>
+    <polygon class="cls-3" points=".45 70.14 20.92 121.78 20.92 57.34 .45 70.14"/>
+    <polygon class="cls-3" points="200 70.15 179.54 121.81 179.54 54.9 200 70.15"/>
+  </g>
+  <g>
+    <rect class="cls-4" x="95.39" y="136.21" width="12.8" height="31.8"/>
+    <polygon class="cls-4" points="76.18 133.97 126.76 133.97 118.12 115.73 123.56 115.73 111.04 91.56 114.11 91.56 100.83 65.95 88.24 91.56 91.28 91.56 79.06 115.89 84.61 115.89 76.18 133.97"/>
+  </g>
+</svg>
