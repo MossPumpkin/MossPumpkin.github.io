@@ -1,15 +1,50 @@
 <html>
-    <head>
-        <title>
-            My first website.
-        </title>
+ <head>
+    <title>Icon Template Square</title>
+        <style>
+            body{
+                background-color: rgb(13, 24, 33);
+            }
+            .row{
+                width:720px;
+                margin: 10px auto 10px auto ;
+            }
+            .image-container {
+                display: table-cell;
+                vertical-align: middle;
+                padding:20px;
+
+            
+            }
+        </style>
     </head>
 
-
     <body>
-        <h1>
-            This is the main heading.
-        </h1>
-    </body>
 
+        <div class="row">
+            <div class="image-container"><img id="shape1" src="img/snow1.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="shape2" src="img/rain1.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="shape3" src="img/thunder1.svg" height="200" width="200"/></div>
+        </div>
+        
+    </body>
+    
 </html>
+
+<script>
+    const shape1Element = document.getElementById ("shape1")
+
+    const shape1Sound = new Audio ()
+    shape1Sound.src = "sounds/Snow_01.mp3"
+    
+    shape1Element.onpointerdown = () => {
+    shape1Sound.play ()
+
+    shape1Element.src = "changedImage/snow2.svg"
+    setTimeout (() => {
+
+        shape1Element.src = "img/snow1.svg"
+    }, 3000)
+}
+</script>
+
