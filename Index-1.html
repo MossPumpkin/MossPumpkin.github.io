@@ -20,31 +20,121 @@
     </head>
 
     <body>
-
+    
         <div class="row">
-            <div class="image-container"><img id="shape1" src="img/snow1.svg" height="200" width="200"/></div>
-            <div class="image-container"><img id="shape2" src="img/rain1.svg" height="200" width="200"/></div>
-            <div class="image-container"><img id="shape3" src="img/thunder1.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="snow" src="img/snow1.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="rain" src="img/rain1.svg" height="200" width="200"/></div>
+            <div class="image-container"><img id="thunder" src="img/thunder1.svg" height="200" width="200"/></div>
         </div>
         
+        <div class="row">
+            <div class="image-container"><img id="tsunami" src="img/tsunami1.svg" height="200" width="200"></div>
+            <div class="image-container"><img id="hurricane" src="img/hurricane1.svg" height="200" width="200"></div>
+            <div class="image-container"><img id="wind" src="img/wind1.svg" height="200" width="200"></div>
+        </div>
+
+        <div class="row">
+            <div class="image-container"><img id="fire" src="img/fire1.svg" height="200" width="200"></div>
+            <div class="image-container"><img id="day" src="img/night.svg" height="200" width="200"></div>
+            <div class="image-container"><img id="volcano" src="img/volcano1.svg" height="200" width="200"></div>
+        </div>
+    
+
     </body>
     
 </html>
 
 <script>
-    const shape1Element = document.getElementById ("shape1")
-
-    const shape1Sound = new Audio ()
-    shape1Sound.src = "sounds/Snow_01.mp3"
-    
-    shape1Element.onpointerdown = () => {
-    shape1Sound.play ()
-
-    shape1Element.src = "changedImage/snow2.svg"
+    const snowElement = document.getElementById ("snow")
+    const snowSound = new Audio ()
+    snowSound.src = "sounds/Snow_01.mp3"
+    snowElement.onpointerdown = () => {
+    snowSound.play ()
+    snowElement.src = "changedImage/snow2.svg"
     setTimeout (() => {
-
-        shape1Element.src = "img/snow1.svg"
-    }, 3000)
+        snowElement.src = "img/snow1.svg"
+    }, 4000)
+}
+    const rainElement = document.getElementById ("rain")
+    const rainSound = new Audio ()
+    rainSound.src = "sounds/Rain_01.mp3"
+    rainElement.onpointerdown = () => {
+    rainSound.play ()
+    rainElement.src = "changedImage/rain2.svg"
+    setTimeout (() => {
+        rainElement.src = "img/rain1.svg"
+    }, 4000)
+}
+    const thunderElement = document.getElementById ("thunder")
+    const thunderSound = new Audio ()
+    thunderSound.src = "sounds/Thunder_01.mp3"
+    thunderElement.onpointerdown = () => {
+    thunderSound.play ()
+    thunderElement.src = "changedImage/thunder2.svg"
+    setTimeout (() => {
+        thunderElement.src = "img/thunder1.svg"
+    }, 4000)
+}
+    const tsunamiElement = document.getElementById ("tsunami")
+    const tsunamiSound = new Audio ()
+    tsunamiSound.src = "sounds/Tsunami_01.mp3"
+    tsunamiElement.onpointerdown = () => {
+    tsunamiSound.play ()
+    tsunamiElement.src = "changedImage/tsunami2.svg"
+    setTimeout (() => {
+        tsunamiElement.src = "img/tsunami1.svg"
+    }, 4000)
+}
+    const hurricaneElement = document.getElementById ("hurricane")
+    const hurricaneSound = new Audio ()
+    hurricaneSound.src = "sounds/Hurricane_01.mp3"
+    hurricaneElement.onpointerdown = () => {
+    hurricaneSound.play ()
+    hurricaneElement.src = "changedImage/hurricane2.svg"
+    setTimeout (() => {
+        hurricaneElement.src = "img/hurricane1.svg"
+    }, 4000)
+}
+    const windElement = document.getElementById ("wind")
+    const windSound = new Audio ()
+    windSound.src = "sounds/Wind_01.mp3"
+    windElement.onpointerdown = () => {
+    windSound.play ()
+    windElement.src = "changedImage/wind2.svg"
+    setTimeout (() => {
+        windElement.src = "img/wind1.svg"
+    }, 4000)
+}
+    const fireElement = document.getElementById ("fire")
+    const fireSound = new Audio ()
+    fireSound.src = "sounds/Fire_01.mp3"
+    fireElement.onpointerdown = () => {
+    fireSound.play ()
+    fireElement.src = "changedImage/fire2.svg"
+    setTimeout (() => {
+        fireElement.src = "img/fire1.svg"
+    }, 4000)
+}
+    const nightElement = document.getElementById ("day")
+    const daySound = new Audio ()
+    daySound.src = "sounds/Morning_01.mp3"
+    nightElement.onpointerdown = () => {
+    daySound.play ()
+    nightElement.src = "changedImage/day.svg"
+    setTimeout (() => {
+        nightElement.src = "img/night.svg"
+    }, 4000)
+}
+    const volcanoElement = document.getElementById ("volcano")
+    const volcanoSound = new Audio ()
+    volcanoSound.src = "sounds/Volcano_01.mp3"
+    volcanoElement.onpointerdown = () => {
+    volcanoSound.play ()
+    volcanoElement.src = "changedImage/volcano2.svg"
+    setTimeout (() => {
+        volcanoElement.src = "img/volcano1.svg"
+    }, 4000)
 }
 </script>
+
 
