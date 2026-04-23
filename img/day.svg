@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5c021;
+        stroke: #dbbd3f;
+        stroke-width: 1.49px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #010101;
+        stroke: #db7d41;
+        stroke-width: 1.28px;
+      }
+
+      .cls-3 {
+        stroke: #efb743;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 20.45px;
+      }
+
+      .cls-5 {
+        fill: #72cddf;
+      }
+
+      .cls-6 {
+        fill: #efb742;
+      }
+
+      .cls-7 {
+        fill: #dcd03f;
+      }
+
+      .cls-4 {
+        stroke: #ed9a3f;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="16.19" y="129.83" width="167.63" height="55.41"/>
+  <g>
+    <path class="cls-3" d="M10.55,129.83V37.73c0-15.17,12.39-27.47,27.66-27.47h123.58c15.28,0,27.66,12.3,27.66,27.47v92.1"/>
+    <path class="cls-4" d="M10.55,70.04v92.1c0,15.17,12.39,27.47,27.66,27.47h123.58c15.28,0,27.66-12.3,27.66-27.47v-92.1"/>
+    <polygon class="cls-6" points=".32 70.03 20.77 121.62 20.77 58.3 .32 70.03"/>
+    <polygon class="cls-6" points="199.68 70.04 179.24 121.65 179.24 56.35 199.68 70.04"/>
+  </g>
+  <line class="cls-2" x1="33.35" y1="129.83" x2="166.65" y2="129.83"/>
+  <line class="cls-2" x1="40.85" y1="142.24" x2="60.44" y2="142.24"/>
+  <line class="cls-2" x1="46.46" y1="155.47" x2="66.05" y2="155.47"/>
+  <line class="cls-2" x1="133.95" y1="155.47" x2="153.55" y2="155.47"/>
+  <line class="cls-2" x1="85.12" y1="155.47" x2="114.88" y2="155.47"/>
+  <line class="cls-2" x1="65.53" y1="142.24" x2="85.12" y2="142.24"/>
+  <line class="cls-2" x1="90.2" y1="142.24" x2="109.8" y2="142.24"/>
+  <line class="cls-2" x1="114.88" y1="142.24" x2="134.48" y2="142.24"/>
+  <line class="cls-2" x1="139.56" y1="142.24" x2="159.15" y2="142.24"/>
+  <g>
+    <path class="cls-7" d="M78.1,127.58c0-12.84,9.81-23.24,21.9-23.24s21.9,10.41,21.9,23.24"/>
+    <line class="cls-1" x1="124.83" y1="126.32" x2="137.34" y2="126.32"/>
+    <line class="cls-1" x1="62.67" y1="126.32" x2="75.17" y2="126.32"/>
+    <line class="cls-1" x1="100" y1="88.44" x2="100" y2="101.71"/>
+    <line class="cls-1" x1="73.6" y1="99.73" x2="82.59" y2="108.96"/>
+    <line class="cls-1" x1="126.4" y1="99.73" x2="117.41" y2="108.96"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Hurricane" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #7e7cbb;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 20.47px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #9c89c0;
+      }
+
+      .cls-3 {
+        stroke: #8da2d3;
+        stroke-width: 5.42px;
+      }
+
+      .cls-4 {
+        stroke: #5d74a6;
+        stroke-width: 18.96px;
+      }
+
+      .cls-5 {
+        fill: #9d89c0;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-2" d="M10.24,130.27V38.05c0-15.19,12.4-27.51,27.7-27.51h123.75c15.3,0,27.7,12.32,27.7,27.51v92.23"/>
+    <path class="cls-1" d="M10.24,70.41v92.23c0,15.19,12.4,27.51,27.7,27.51h123.75c15.3,0,27.7-12.32,27.7-27.51v-92.23"/>
+    <polygon class="cls-5" points="0 70.39 20.48 122.06 20.48 63.5 0 70.39"/>
+    <polygon class="cls-5" points="199.63 70.4 179.16 122.08 179.16 61.55 199.63 70.4"/>
+  </g>
+  <circle class="cls-4" cx="100.14" cy="99.45" r="37.9" transform="translate(-39.81 81.21) rotate(-37.38)"/>
+  <circle class="cls-3" cx="100.14" cy="99.12" r="10.84" transform="translate(-40.75 97.01) rotate(-43.85)"/>
+</svg>
